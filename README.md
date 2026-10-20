@@ -41,28 +41,6 @@ flowchart LR
 | **AWS IAM** | Permessi a minimo privilegio per la Lambda |
 | **Amazon CloudWatch** | Logging e troubleshooting |
 
----
-
-## 📁 Struttura della repository
-
-```
-.
-├── src/
-│   └── lambda_function.py        # Codice della funzione Lambda
-├── receipts/                     # Ricevute di esempio (5 PNG + 5 PDF)
-├── scripts/
-│   └── generate_receipts.py      # Rigenera le ricevute di esempio
-├── iam/
-│   ├── lambda-trust-policy.json  # Trust policy del ruolo
-│   └── lambda-execution-policy.json  # Permessi (minimo privilegio)
-├── events/
-│   └── s3-put-event.json         # Evento di test per la console Lambda
-├── sample-output/
-│   ├── dynamodb-item.json        # Esempio di record salvato
-│   └── email-example.txt         # Esempio di email ricevuta
-├── requirements-dev.txt
-└── README.md
-```
 
 ---
 
