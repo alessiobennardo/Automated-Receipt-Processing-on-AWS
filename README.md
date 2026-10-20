@@ -2,8 +2,6 @@
 
 Pipeline **serverless** che elabora automaticamente le ricevute: carichi un'immagine o un PDF su Amazon S3 e, in pochi secondi, i dati (negozio, data, totale, articoli) vengono estratti con AI, salvati in un database e inviati via email.
 
-> Progetto ispirato al tutorial *"Build With Me: Automating My Life with AWS & AI"* del canale [Tech With Lucy](https://www.youtube.com/channel/UCck1m7zZdzioiUzqhzpdNPw). Il codice in questa repository è una implementazione indipendente.
-
 ![AWS](https://img.shields.io/badge/AWS-Serverless-orange) ![Python](https://img.shields.io/badge/Python-3.12-blue) ![Free Tier](https://img.shields.io/badge/Cost-Free%20Tier%20eligible-green)
 
 ---
