@@ -201,8 +201,3 @@ Per evitare costi, al termine elimina:
 - Categorizzazione automatica con Amazon Bedrock
 - Notifica via SNS/Slack invece di (o oltre a) SES
 
----
-
-## 📄 Licenza
-
-MIT — vedi file `LICENSE` (aggiungilo alla repository).
